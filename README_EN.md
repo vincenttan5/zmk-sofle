@@ -18,6 +18,7 @@ For 3D printed model files or any issues and malfunctions with the keyboard, ple
 
 # Sofle Keymap
 
+Use this instead of the ZMK editor --> https://nickcoutsos.github.io/keymap-editor/
 
 <img src="keymap-drawer/eyelash_sofle.svg" >
 
