@@ -1,22 +1,24 @@
-- [中文](README.md)
-- [English](README_EN.md)
+- [Chinese](README.md)
+- [English](README.md)
 
-# 更新列表
-- 2025/3/30 增加睡眠进入时间1小时  增加防抖时间 优化睡眠后功耗 
+# Update List
+
 - 2024/12/21
-  1. 增加zmk-studio支持（只需要刷新左手即可使用）。
+  1. Added support for zmk-studio (just refresh the left hand to use).
 - 2024/10/24
-  1. 修改供电模式，功耗降低。
-  2. 修正RGB供电自动关闭的功能。
+  1. Modified power supply mode to reduce power consumption.
+  2. Fixed the automatic shut-off feature for RGB power supply.
 
-> 如果您的键盘于10月24日之前更新，请更新最新的固件。
+> If your keyboard was updated before October 24, please update to the latest firmware.
 > 
 ---
-# 联系我
+# Contact Me
 
-如需3D打印的模型文件或者键盘有任何异常和故障，请联系380465425@qq.com
+For 3D printed model files or any issues and malfunctions with the keyboard, please contact 380465425@qq.com
 
-# Sofle键位图
+# Sofle Keymap
+
+Use this instead of the ZMK editor --> https://nickcoutsos.github.io/keymap-editor/
 
 <img src="keymap-drawer/eyelash_sofle.svg" >
 
@@ -38,4 +40,5 @@ This will allow you to reference the actions defined in the header such as `RGB_
 | `RGB_EFF`       | Cycles the RGB feature’s effect forwards                      |
 | `RGB_EFR`       | Cycles the RGB feature’s effect in reverse                    |
 | `RGB_COLOR_HSB` | Sets a specific HSB (HSV) value for the underglow             |
+
 
