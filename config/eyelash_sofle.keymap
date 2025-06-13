@@ -39,31 +39,66 @@
         bt0_switch: bt0_switch {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 0>;
+            bindings = <
+                <&out OUT_BLE>
+                <&bt BT_DISC 1>
+                <&bt BT_DISC 2>
+                <&bt BT_DISC 3>
+                <&bt BT_DISC 4>
+                <&bt BT_SEL 0>
+            >;
         };
 
         bt1_switch: bt1_switch {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 1>;
+            bindings = <
+                <&out OUT_BLE>
+                <&bt BT_DISC 1>
+                <&bt BT_DISC 2>
+                <&bt BT_DISC 3>
+                <&bt BT_DISC 4>
+                <&bt BT_SEL 1>
+            >;
         };
 
         bt2_switch: bt2_switch {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 2>;
+            bindings = <
+                <&out OUT_BLE>
+                <&bt BT_DISC 1>
+                <&bt BT_DISC 2>
+                <&bt BT_DISC 3>
+                <&bt BT_DISC 4>
+                <&bt BT_SEL 2>
+            >;
         };
 
         bt3_switch: bt3_switch {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 3>;
+            bindings = <
+                <&out OUT_BLE>
+                <&bt BT_DISC 1>
+                <&bt BT_DISC 2>
+                <&bt BT_DISC 3>
+                <&bt BT_DISC 4>
+                <&bt BT_SEL 3>
+            >;
         };
 
         bt4_switch: bt4_switch {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 4>;
+            bindings = <
+                <&out OUT_BLE>
+                <&bt BT_DISC 1>
+                <&bt BT_DISC 2>
+                <&bt BT_DISC 3>
+                <&bt BT_DISC 4>
+                <&bt BT_SEL 4>
+            >;
         };
     };
 
