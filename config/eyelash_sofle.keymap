@@ -54,7 +54,7 @@
             #binding-cells = <0>;
             bindings = <
                 <&out OUT_BLE>
-                <&bt BT_DISC 1>
+                <&bt BT_DISC 0>
                 <&bt BT_DISC 2>
                 <&bt BT_DISC 3>
                 <&bt BT_DISC 4>
@@ -67,8 +67,8 @@
             #binding-cells = <0>;
             bindings = <
                 <&out OUT_BLE>
+                <&bt BT_DISC 0>
                 <&bt BT_DISC 1>
-                <&bt BT_DISC 2>
                 <&bt BT_DISC 3>
                 <&bt BT_DISC 4>
                 <&bt BT_SEL 2>
@@ -80,9 +80,9 @@
             #binding-cells = <0>;
             bindings = <
                 <&out OUT_BLE>
+                <&bt BT_DISC 0>
                 <&bt BT_DISC 1>
                 <&bt BT_DISC 2>
-                <&bt BT_DISC 3>
                 <&bt BT_DISC 4>
                 <&bt BT_SEL 3>
             >;
@@ -93,10 +93,10 @@
             #binding-cells = <0>;
             bindings = <
                 <&out OUT_BLE>
+                <&bt BT_DISC 0>
                 <&bt BT_DISC 1>
                 <&bt BT_DISC 2>
                 <&bt BT_DISC 3>
-                <&bt BT_DISC 4>
                 <&bt BT_SEL 4>
             >;
         };
