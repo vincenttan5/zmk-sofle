@@ -197,8 +197,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   Layer 3:
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+$$mdi:brightness-5$$
-  - $$mdi:brightness-7$$
+  - $$mdi:brightness-5$$
+  - $$mdi:brightness-5$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
